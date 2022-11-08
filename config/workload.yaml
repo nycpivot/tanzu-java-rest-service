@@ -25,7 +25,8 @@ spec:
     - name: api_descriptor
       value:
         type: openapi
-        location: 
+        location:
+          baseURL: http://tanzu-java-rest-service.apps.tap.nycpivot.com/
           path: "/api-docs"
         owner: 
         system: 
