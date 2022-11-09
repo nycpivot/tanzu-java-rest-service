@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: customer-profile
+  name: tanzu-java-rest-service
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tanzu-java-rest-service"
 spec:
   type: service
   lifecycle: experimental
   owner: default-team
   providesApis:
-    - customer-profile
+    - tanzu-java-rest-service
